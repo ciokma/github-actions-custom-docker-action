@@ -70,7 +70,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
-          bucket: github-actions-deployment-nodejs
+          bucket: github-actions-deployment-nodejs-site
           dist-folder: ./dist
           bucket-region: us-east-1
       - name: Output information
